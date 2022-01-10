@@ -1,0 +1,31 @@
+/* pseudocode
+Variables
+	double iCost, cTip, cTax, cTotal
+	String iData, ototal, oTax, oTip, oCost
+	Object inputDevice
+	
+main
+	call input
+	call calcs
+	call output
+	
+input	
+	Display "Enter the food cost."
+	Get iData
+	iCost = formatted (iData)
+
+calcs
+	cTip = .15 * iCost
+	cTax = iCost * .07
+	cTotal = cTip + cTax + iCost
+
+output
+	oTip = formatted(cTip)
+	oTax = formatted(cTax)
+	oTotal = formatted(cTotal)
+	oCost = formatted(iCost)
+	Display "Cost: " oCost
+	Display "your tip is: " oTip
+	Display "Sales tax is: " oTax
+	Display "Total is: " oTotal
+*/
